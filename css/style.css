@@ -330,6 +330,15 @@ h5,
 .site-logo a {
   color: #000;
 }
+.logo-header {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.site-logo-m {
+  width: 100% !important;
+  height: auto !important;
+}
 
 .site-navbar {
   margin-bottom: 0px;

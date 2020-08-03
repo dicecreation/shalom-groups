@@ -100,7 +100,7 @@ h5,
 }
 @media (min-width: 768px) {
   .site-section {
-    padding: 5em 0;
+    padding: 2em 0;
   }
 }
 .site-section.site-section-sm {
@@ -1454,4 +1454,21 @@ h5,
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
